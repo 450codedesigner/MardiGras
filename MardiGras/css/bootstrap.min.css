@@ -1,5 +1,10 @@
-
-:root {
+/*!
+ * Bootstrap v4.5.2 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+ :root {
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -33,14 +38,14 @@
 *,
 ::after,
 ::before {
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 html {
     font-family: sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent
 }
 
 article,
@@ -53,7 +58,7 @@ hgroup,
 main,
 nav,
 section {
-    display: block;
+    display: block
 }
 
 body {
@@ -85,7 +90,6 @@ h5,
 h6 {
     margin-top: 0;
     margin-bottom: .5rem
-  
 }
 
 p {
@@ -163,13 +167,13 @@ sup {
 }
 
 a {
-    color:blueviolet;
+    color: #007bff;
     text-decoration: none;
     background-color: transparent
 }
 
 a:hover {
-    color: #34ce57;
+    color: #0056b3;
     text-decoration: underline
 }
 
@@ -531,7 +535,7 @@ code {
 }
 
 a>code {
-    color: inherit;
+    color: inherit
 }
 
 kbd {
@@ -5221,9 +5225,9 @@ input[type=submit].btn-block {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color:black;
+    background-color: #fff;
     background-clip: border-box;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem
 }
 
@@ -11355,7 +11359,7 @@ a.text-dark:hover {
     }
 
     abbr[title]::after {
-        content: " ("attr(title) ")"
+        content: " (" attr(title) ")"
     }
 
     pre {
