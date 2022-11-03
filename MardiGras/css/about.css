@@ -1,4 +1,6 @@
 
+  
+
 h1,
 h2 h3 {
     color: #fff;
@@ -63,32 +65,6 @@ footer .row {
     background: #cbaa65;
 }
 
-@media (max-width: 991px){
-    #id_nav i{
-        display: none;
-    }
-    
-}
-
-@media (max-width: 767px){
-
-    header{
-        background: black;
-    }
-    header .logo-search .search{
-        display: none;
-        
-    }
-    
-    header .logo-search #id_burger{
-        float: right !important;
-    }
-    #id_nav{
-        display: none;
-    }
-}
-
-
 
 @media (max-width: 767px) {}
 
@@ -112,4 +88,3 @@ header .logo-search #id_burger {
 #id_nav {
     display: none;
 }
-  */
