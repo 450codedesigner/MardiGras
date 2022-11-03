@@ -1,59 +1,6 @@
 
 
- .section{
-    
-    margin: 0 auto;
-} 
 
-.section p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.1em;
-}
-
-.container .accordion{
-    margin: 0 auto;
-}
-.accordion .card-header{
-    border: 2px solid  #8CBF3F;
-    background:  #f3e081;
-}
- .accordion .btn{
-
-color: #9453A6;
-font-family:'Roboto', sans-serif;
-font-size: 1.3rem;
-
-
-}
-.accordion .card .btn-link{
-   text-decoration: none; 
-}
-
-.accordion .card .btn:focus{
-box-shadow: none;
-}
-.accordion .card .btn:hover{
-    text-decoration: none;
-    color: #9453A6;
-}
-.accordion .card{
-    margin-bottom: 1em;
-   
-}
-
-@media (max-width: 768px){
-    .container .title-main h1{
-        font-size: 2.5em;
-    }
-    .accordion .btn{
-        font-size:1.2rem;
-    }
-
-}
-
-
-
-/*  
 .section {
     margin: 0 auto;
 
