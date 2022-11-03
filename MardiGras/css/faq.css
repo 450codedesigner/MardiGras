@@ -98,6 +98,40 @@ footer .green-box p.rights {
     margin-bottom: 5px !important;
 }
 
+
+
+@media (max-width: 768px){
+    .container .title-main h1{
+        font-size: 2.5em;
+    }
+    .section{
+        text-align: center;
+    }
+    .row{
+        justify-content: center;
+    }
+
+    .input-area{
+        
+        width:86%;
+        
+    }
+    .text-area{
+        width:86%;
+        margin-left: 0;
+        
+    }
+    .text-area textarea{
+        width: 92%;
+    }
+    form{
+        margin-bottom: 100px;
+    }
+
+}
+
+
+/*  
 @media (max-width: 768px) {
     .container .title-main h1 {
         font-size: 4.5em;
@@ -108,3 +142,5 @@ footer .green-box p.rights {
     }
 
 }
+
+*/
