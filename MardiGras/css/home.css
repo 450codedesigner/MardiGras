@@ -115,6 +115,9 @@
   }
 
   
+
+ 
+ 
 @media (max-width: 991px) {
   #mobile_cover {
     min-height: 18em;
@@ -154,47 +157,6 @@
   }
 }
  
-/*   
-@media (max-width: 991px) {
-  #mobile_cover {
-    min-height: 18em;
-    background-size: cover;
-    background-position: center;
-    color: #0b1823;
-    margin-top: -16px;
-  }
-  aside .sponsor-box {
-    width: 45%;
-    border: 2px solid #cbaa65;
-  }
-
-  .main-content {
-    margin-top: 70px;
-    color:  #cbaa65;
-  }
-
-  aside.aside-right {
-    margin-top: 70px;
-    margin-bottom: 70px;
-  }
-}
-
-@media (max-width: 767px) {
-  .slider {
-    display: none;
-  }
-  aside .sponsor-box {
-    width: 90%;
-  }
-
-  .mobile-cov h1 {
-    font-family: "Pattaya", serif;
-    font-size: 1.8em;
-    text-align: center;
-  }
-}
-
-/*  
   @media (max-width: 767px) {
     #mobile_cover {
       min-height: 18em;
