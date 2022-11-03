@@ -1,3 +1,12 @@
+
+
+
+
+
+@media ONLY screen AND (max-width: 992px) {
+  h1 { font-size: 16px; }
+  }
+
 element.style {
   display: block;
 }
@@ -83,8 +92,6 @@ element.style {
 }
 
 
-
-  
 body {
   background-color: black;
   background-size: 100%;
@@ -125,7 +132,7 @@ h5 {
   margin: auto;
 }
 
- header 
+/* header */
 header .search {
   color: #fff;
   border-bottom: #cbaa65;
@@ -164,7 +171,7 @@ header .search .fa-search {
 
 }
 
- navigation bar 
+/* navigation bar */
 
 nav .box {
   min-height: 44px;
@@ -331,7 +338,7 @@ nav i:hover {
   font-size: 3.3em !important;
 }
 
- social 
+/* social */
 
 .social a {
   color: #fff;
@@ -413,58 +420,7 @@ footer .green-box p.rights {
 }
 
 
-@media (max-width: 991px){
-    #id_nav i{
-        display: none;
-    }
-    
-}
 
-@media (max-width: 767px){
-
-    header{
-        background: black;
-    }
-    header .logo-search .search{
-        display: none;
-        
-    }
-    
-    header .logo-search #id_burger{
-        float: right !important;
-    }
-    #id_nav{
-        display: none;
-    }
-}
-
-
-  
-@media (max-width: 991px) {
-  #mobile_cover {
-    min-height: 18em;
-    background-size: cover;
-    background-position: center;
-    color: #0b1823;
-    margin-top: -16px;
-  }
-  aside .sponsor-box {
-    width: 45%;
-    border: 2px solid #cbaa65;
-  }
-
-  .main-content {
-    margin-top: 70px;
-    color:  #cbaa65;
-  }
-
-  aside.aside-right {
-    margin-top: 70px;
-    margin-bottom: 70px;
-  }
-}
-
- 
 @media (max-width: 111px) {
   #id_nav i {
     display: list-item;
@@ -490,12 +446,10 @@ footer .green-box p.rights {
     float: #cbaa65 !important;
   }
 
-
-
   #id_nav {
- display: block; 
+    /* display: block; */
     mask-position: 0em;
-    background: black; 
+    /* background: black; */
     right: 15px;
     top: 10px;
     width: 100%;
@@ -521,7 +475,7 @@ footer .green-box p.rights {
     font-size: 2em !important;
   }
 
- footer 
+  /* footer */
   footer .green-box p.rights {
     display: none;
   }
