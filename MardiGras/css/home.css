@@ -1,7 +1,143 @@
-  /* font-family: 'Pattaya';=Title */
-  /* font-family: 'Henny Penny'; =Title */
-  /* font-family: 'Roboto', sans-serif; =Text */
+body {
+  background: rgba(206, 151, 190, 0.351) !important;
+}
 
+.underline .short-underline {
+  width: 9em;
+  height: 2px;
+  margin: 2em auto 1em auto;
+  background-color: #6f3ca0;
+}
+
+.underline .long-underline {
+  width: 18em;
+  height: 2px;
+  margin: auto;
+  background-color: #8cbf3f;
+}
+
+#slider_item {
+  height: 430px;
+}
+
+#slider_item img {
+  height: 430px;
+}
+
+.common-heading {
+  font-family: "Pattaya", serif;
+  font-size: 3.5em;
+}
+
+.carousel-heading {
+  font-family: "Pattaya", serif;
+  text-shadow: 2px 2px 4px #000000;
+}
+.mobile-cov {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.main-content {
+  color: #5b594c;
+}
+.main-content p {
+  text-align: justify;
+}
+.main-content .first-section img {
+  width: 300px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 13px 26px -10px rgba(0, 0, 0, 0.48);
+  border-radius: 3px;
+}
+.main-content button#moreBtn {
+  border: 2px solid #8cbf3f;
+  color: #6f3ca0;
+}
+
+.article-separator .separator {
+  width: 33.33%;
+  height: 3px;
+}
+.article-separator .separator.green {
+  background: #8cbf3f;
+}
+.article-separator .separator.yellow {
+  background: #f2cc0f;
+}
+.article-separator .separator.purple {
+  background: #6f3ca0;
+}
+
+.second-section img {
+  width: 520px;
+  box-shadow: 0 13px 26px -10px rgba(0, 0, 0, 0.48);
+  border-radius: 3px;
+}
+aside .sponsor_link {
+  text-decoration: none;
+  color: black;
+}
+aside .sponsor-box {
+  margin: 0 auto;
+  width: 85%;
+  margin-top: 1.5em;
+  background: rgb(236, 234, 234);
+  min-height: 450px;
+}
+
+.sponsor-box .sponsor-fullname {
+  font-size: 1.2rem;
+}
+.sponsor-box .card-text {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 991px) {
+  #mobile_cover {
+    min-height: 18em;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin-top: -16px;
+  }
+  aside .sponsor-box {
+    width: 45%;
+    border: 2px solid #6f3ca0;
+  }
+
+  .main-content {
+    margin-top: 70px;
+  }
+
+  aside.aside-right {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .slider {
+    display: none;
+  }
+  aside .sponsor-box {
+    width: 90%;
+  }
+
+  .mobile-cov h1 {
+    font-family: "Pattaya", serif;
+    font-size: 1.8em;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+/* 
   body {
     background-color: black;
     background-size: 100%;
