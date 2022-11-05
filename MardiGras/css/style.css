@@ -477,18 +477,3 @@ footer .green-box p.rights {
 
 
   
- /* footer */
- footer .yellow-box img {
-  flex-direction: column;
-  box-shadow: 0 13px 26px -3px #cbaa65;
-}
-
-footer .green-box img {
-  flex-direction: column;
-  box-shadow: 0 13px 26px -3px  #cbaa65;
-}
-
-footer .purple-box img {
-  flex-direction: column;
-  box-shadow: 0 13px 26px -3px #cbaa65;
-}
