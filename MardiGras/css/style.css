@@ -475,19 +475,20 @@ footer .green-box p.rights {
     font-size: 2em !important;
   }
 
-  /* footer */
-  footer .green-box p.rights {
-    display: none;
-  }
 
-  footer .green-box img {
-    margin-bottom: -22px;
-  }
+  
+ /* footer */
+ footer .yellow-box img {
+  flex-direction: column;
+  box-shadow: 0 13px 26px -3px #cbaa65;
+}
 
-  footer .purple-box {
-    flex-direction: column;
-  }
+footer .green-box img {
+  flex-direction: column;
+  box-shadow: 0 13px 26px -3px  #cbaa65;
+}
 
-  footer .purple-box p.rights-mobile {
-    margin-bottom: 0;
-  }
+footer .purple-box img {
+  flex-direction: column;
+  box-shadow: 0 13px 26px -3px #cbaa65;
+}
