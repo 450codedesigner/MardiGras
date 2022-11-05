@@ -99,6 +99,24 @@ footer .green-box p.rights {
 }
 
 
+ /* footer */
+ footer .yellow-box img {
+  flex-direction: column;
+  box-shadow: 0 13px 26px -3px #cbaa65;
+}
+
+footer .green-box img {
+  flex-direction: column;
+  box-shadow: 0 13px 26px -3px  #cbaa65;
+}
+
+footer .purple-box img {
+  flex-direction: column;
+  box-shadow: 0 13px 26px -3px #cbaa65;
+}
+
+
+
 
 @media (max-width: 768px){
     .container .title-main h1{
@@ -128,19 +146,6 @@ footer .green-box p.rights {
         margin-bottom: 100px;
     }
 
-}
 
 
-/*  
-@media (max-width: 768px) {
-    .container .title-main h1 {
-        font-size: 4.5em;
-    }
 
-    .accordion .btn {
-        font-size: 1.2rem;
-    }
-
-}
-
-*/
