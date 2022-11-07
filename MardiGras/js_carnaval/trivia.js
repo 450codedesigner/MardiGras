@@ -83,7 +83,7 @@ window.onload = function () {
           loadQuestion(current);
           loadAnswers(current);
         } else {
-          questionArea.innerHTML = 'Done';
+          questionArea.innerHTML = 'Game Over';
           answerArea.innerHTML = '';
           document.getElementById("id_score").innerHTML = counter;
           console.log(counter)
