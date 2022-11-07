@@ -8,7 +8,7 @@ window.onload = function () {
        // An object that holds all the questions + possible answers.
        // In the array --> last digit gives the right answer position
         allQuestions = {
-          "True or False: <br> 1.The first organised Mardi Gras celebration in America took place in New Orleans." : ['True', 'False', 1], 
+         " &#10003; True <br> or <br> &#10005; False <br><br> 1.The first organised Mardi Gras celebration in America took place in New Orleans." : ['True', 'False', 1], 
           
           "2. Which of the following is not one of New Orleans' Mardi Gras colors?" : ['Green', 'Yellow' , 'Blue', 'Purple', 2],
           
