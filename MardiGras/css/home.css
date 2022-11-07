@@ -9,6 +9,17 @@
     background-position-x: center;
   }
 
+a {
+    color:blueviolet;
+    text-decoration: none;
+    background-color: transparent
+}
+
+a:hover {
+    color: blueviolet;
+    text-decoration: underline
+}
+
   p {
     color: #cbaa65;
     text-transform: uppercase;
