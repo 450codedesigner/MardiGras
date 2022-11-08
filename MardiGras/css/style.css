@@ -341,15 +341,16 @@ nav i:hover {
 /* social */
 
 .social a {
+
   color: #fff;
   background: linear-gradient(to bottom, #cfc19f 24%, #534f2c 26%, #cfc19f 28%, #cfc19f 29%, #ffecd4 45%, #3a2c1f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: black;
-  width: 5em;
+  width: 2em;
   height: 5em;
   border-radius: 50px;
-  margin: 0 0.6em;
+  margin: 0 0.01em;
   transition: all 0.2s;
 }
 
