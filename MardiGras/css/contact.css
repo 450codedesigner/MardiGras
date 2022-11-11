@@ -1,65 +1,74 @@
+.section {
 
-.section{
-    
     margin: 0 auto;
 }
-.section p{
+
+.section p {
     font-family: 'Roboto', sans-serif;
     font-size: 1.1em;
 }
-.row{
+
+.row {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 
-.box input{
+.box input {
+    background-color: rgb(40, 39, 39);
     border-style: none;
     border-radius: 5px;
     padding: 6px;
     width: 92%;
-    
+
+
 }
-.box input:focus{
+
+.box input:focus {
     outline: none;
-}
-.input-area{
-    width:33%;
-    margin-bottom: 20px;
     
 }
 
-.text-area{
-    width: 99%;
+.input-area {
+    width: 33%;
+    margin-bottom: 20px;
     
-    
-   
+
 }
-.text-area textarea{
-    
+
+.text-area {
+    width: 99%;
+   
+
+}
+
+.text-area textarea {
+ 
     width: 98%;
     border-style: none;
     border-radius: 5px;
-    border-left: 3px solid salmon;
-    border-bottom: 3px solid #8CBF3F;
-   
+    border-left: 3px solid blueviolet;
+    border-bottom: 3px solid blueviolet;
 
-   
-}
-.text-area textarea{
-    outline: none;
-    
-    
-    
+
 }
 
-button.btn{
+.text-area textarea {
+    color: blueviolet;
+    background-color: rgb(40, 39, 39);
+
+
+}
+
+button.btn {
     margin-left: 7px;
-    
+ 
+ 
 }
+
 p {
-    color: #fff;
+    color: blueviolet;
     text-transform: uppercase;
     font-size: 22px;
     font-weight: 22px;
@@ -69,44 +78,53 @@ p {
 }
 
 footer .row .green-box {
-    color: #fff;
+    color: blueviolet;
+
     background: linear-gradient(to bottom, #cfc19f 24%, #534f2c 26%, #cfc19f 28%, #cfc19f 29%, #ffecd4 45%, #3a2c1f 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-     font-size: 22px;
+    font-size: 22px;
     font-weight: 22px;
 }
-   footer .row {
-    min-height: 150px;
-  }
 
-@media (max-width: 768px){
-    .container .title-main h1{
+footer .row {
+    min-height: 150px;
+}
+
+@media (max-width: 768px) {
+    .container .title-main h1 {
         font-size: 2.5em;
     }
-    .section{
+
+    .section {
         text-align: center;
     }
-    .row{
+
+    .row {
         justify-content: center;
+
     }
 
-    .input-area{
-        
-        width:86%;
-        
+    .input-area {
+        color: blueviolet;
+        width: 86%;
+
     }
-    .text-area{
-        width:86%;
+
+    .text-area {
+        width: 86%;
         margin-left: 0;
-        
+        color: blueviolet;
     }
-    .text-area textarea{
+
+    .text-area textarea {
         width: 92%;
+        color: blueviolet;
     }
-    form{
+
+    form {
         margin-bottom: 100px;
+        color: blueviolet;
     }
 
 }
-
