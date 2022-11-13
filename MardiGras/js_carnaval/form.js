@@ -14,19 +14,19 @@ const declareViewEvents = () =>{
     
     if($("#id_name").val().length < 2){
         $("#id_name").next().removeClass("d-none");
-        $("#id_name").css("background","pink")
+        $("#id_name").css("background","blueviolet")
         flagSend = false;
       }
   
       if($("#id_phone").val().length < 9){
         $("#id_phone").next().removeClass("d-none")
-        $("#id_phone").css("background","pink")
+        $("#id_phone").css("background","blueviolet")
         flagSend = false;
       }
   
       if(!$("#id_email").val().includes("@") || !$("#id_email").val().includes(".") ){
         $("#id_email").next().removeClass("d-none")
-        $("#id_email").css("background","pink")
+        $("#id_email").css("background","blueviolet")
         flagSend = false;
       }
   
