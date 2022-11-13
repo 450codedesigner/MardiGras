@@ -31,6 +31,8 @@
                 <input type="search" placeholder="Search...">
                 <button class="btn search-btn"><i class="fas fa-search"></i></button>
             </div>
+
+
             <div class="burger h1 d-md-none d-flex align-items-end pr-2" id="id_burger">
                 <i class="fas fa-bars"></i>
             </div>
@@ -104,17 +106,21 @@
                 </div>
                 <br>
 
-        <div class=" text-center ml-lg-4 mb-3">
-        <h3 class="link">
-            <a href="media.html"> <h4> Visit Mardi Gras  </h4> </a>
-        </h3>
-        <h4 class="link">
-            <a href="media.html"></a>
-        </h4>
-        <a class="join" href="media.html"> <h3>  &#8606; GALLERY &#8608;</h3>     </a>
-    </div>
-<br>
-<br>
+                <div class=" text-center ml-lg-4 mb-3">
+                    <h3 class="link">
+                        <a href="media.html">
+                            <h4> Visit Mardi Gras </h4>
+                        </a>
+                    </h3>
+                    <h4 class="link">
+                        <a href="media.html"></a>
+                    </h4>
+                    <a class="join" href="media.html">
+                        <h3> &#8606; GALLERY &#8608;</h3>
+                    </a>
+                </div>
+                <br>
+                <br>
 
 
                 <br>
@@ -124,6 +130,17 @@
                     <div class="big__underline"></div>
                 </div>
             </div>
+
+            &nbsp; &nbsp;<button type="button" class="btn btn-outline-primary facebook-share share-btn share-fb"
+                data-social="facebook-share" data-service="facebook"><i class="fab fa-facebook-f"
+                    aria-hidden="true"></i>Share</button>
+
+                    &nbsp; &nbsp; <button type="button" class="btn btn-outline-primary twitter-share" data-social="twitter"
+                data-social-via="develocode"><i class="fab fa-twitter" aria-hidden="true"></i>Share</button>
+<br>
+<br>
+
+
             <div class="first__section__wrapper">
                 <div class="first__section__content">
                     <div class="container">
@@ -170,13 +187,17 @@
                     <br>
                     <div class=" text-center ml-lg-4 mb-3">
                         <h3 class="link">
-                            <a href="faq.html"> <h4> Visitors' Questions </h4>  </a>
+                            <a href="faq.html">
+                                <h4> Visitors' Questions </h4>
+                            </a>
                         </h3>
 
                         <h4 class="link">
                             <a href="faq.html"></a>
                         </h4>
-                        <a class="join" href="faq.html"> <h3> &#8606; FAQ &#8608; </h3>  </a>
+                        <a class="join" href="faq.html">
+                            <h3> &#8606; FAQ &#8608; </h3>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -187,9 +208,10 @@
     <div class="social container d-flex justify-content-center mt-5">
         <div class="row d-flex mt-5">
 
-           <h4> <div class="d-sm-block d-none">__________________________</div>
-            <div class="d-sm-none d-block">_________</div>
-        </h4>
+            <h4>
+                <div class="d-sm-block d-none">__________________________</div>
+                <div class="d-sm-none d-block">_________</div>
+            </h4>
             <a class="facebook d-flex justify-content-center align-items-center"
                 href="https://www.facebook.com/MardiGrasNewOrleans" target="_blank">
                 <i class="fab fa-facebook-f"></i>
@@ -206,14 +228,16 @@
                     <i class="fab fa-instagram"></i>
                 </a>
                 <a class="linkedin d-flex justify-content-center align-items-center"
-        href="https://www.linkedin.com/company/mardi-gras-world/about/" target="_blank">
-        <i class="fab fa-linkedin"></i>
-      </a>
-<h4>
-                <div class="d-sm-block d-none">__________________________</div>
-                <div class="d-sm-none d-block">_________</div>
+                    href="https://www.linkedin.com/company/mardi-gras-world/about/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
 
-            </h4>
+
+                <h4>
+                    <div class="d-sm-block d-none">__________________________</div>
+                    <div class="d-sm-none d-block">_________</div>
+
+                </h4>
             </a>
         </div>
     </div>
@@ -223,11 +247,11 @@
 
     <footer class="container-fluid mt-2">
         <button onclick="topFunction()" id="myBtn" title="Go to top" style="display: block;">Up &#8607;</button>
-      <h5><a class="linkedin d-flex justify-content-right align-items-center"
-        href="https://www.linkedin.com/in/leah-levy369/" target="_blank">
-        <h5>&nbsp; &nbsp; © 2022 creative developer &#9734;  Leah-Levy &nbsp;<i class="fab fa-linkedin"> </i></i>
-        </h5>
-      </a>
+        <h5><a class="linkedin d-flex justify-content-right align-items-center"
+                href="https://www.linkedin.com/in/leah-levy369/" target="_blank">
+                <h5>&nbsp; &nbsp; © 2022 creative developer &#9734; Leah-Levy &nbsp;<i class="fab fa-linkedin"> </i></i>
+                </h5>
+            </a>
     </footer>
 
 
@@ -257,7 +281,116 @@
     <script>
         AOS.init();
     </script>
+<script>document.querySelector(".facebook-share").addEventListener('click', function () {
+    pagedata = {
+        url: window.mainurl,
+        fblikeurl: '{"href":"' + ($(this).data('social-url') || document.location.href) + '"}',
+        text: $(this).data('social-text') || document.title,
+        description: $(this).data('social-description') || $('meta[name=description]').attr('content'),
+        via: $(this).data('social-via') || "",
+        hashtags: $(this).data('social-hashtags') || "",
+        image: $(this).data('social-image') || ""
+    };
+    socialActions = {
+        'facebook-share': {
+            url: "https://www.facebook.com/sharer/sharer.php?",
+            params: {
+                "u": "url"
+            }
+        },
+        'facebook-like': {
+            url: "https://www.facebook.com/plugins/error/confirm/like?",
+            params: {
+                "return_params": "fblikeurl"
+            },
+        },
+        'twitter': {
+            url: "http://twitter.com/intent/tweet?",
+            params: {
+                "url": "url",
+                "text": "text",
+                "via": "via",
+                "hashtags": "hashtags"
+            }
+        },
+        'pinterest': {
+            url: "http://pinterest.com/pin/create/button/?",
+            params: {
+                "url": "url",
+                "description": "text",
+                "media": "image"
+            }
+        },
+        'googleplus': {
+            url: "https://plusone.google.com/_/+1/confirm?hl=en&",
+            params: {
+                "url": "url"
+            }
+        }
+    };
+    action = socialActions[$(this).data('social')];
+    p = action['params'];
+    $.each(p, function (k, v) {
+        p[k] = pagedata[v]
+    });
+    window.open(action['url'] + $.param(p), "", "width=500,height=400");
+});
 
+document.querySelector(".twitter-share").addEventListener('click', function () {
+    /* debugger; */
+    pagedata = {
+        url: window.mainurl,
+        fblikeurl: '{"href":"' + ($(this).data('social-url') || document.location.href) + '"}',
+        text: $(this).data('social-text') || document.title,
+        description: $(this).data('social-description') || $('meta[name=description]').attr('content'),
+        via: $(this).data('social-via') || "",
+        hashtags: $(this).data('social-hashtags') || "",
+        image: $(this).data('social-image') || ""
+    };
+    socialActions = {
+        'facebook-share': {
+            url: "https://www.facebook.com/sharer/sharer.php?",
+            params: {
+                "u": "url"
+            }
+        },
+        'facebook-like': {
+            url: "https://www.facebook.com/plugins/error/confirm/like?",
+            params: {
+                "return_params": "fblikeurl"
+            },
+        },
+        'twitter': {
+            url: "http://twitter.com/intent/tweet?",
+            params: {
+                "url": "url",
+                "text": "text",
+                "via": "via",
+                "hashtags": "hashtags"
+            }
+        },
+        'pinterest': {
+            url: "http://pinterest.com/pin/create/button/?",
+            params: {
+                "url": "url",
+                "description": "text",
+                "media": "image"
+            }
+        },
+        'googleplus': {
+            url: "https://plusone.google.com/_/+1/confirm?hl=en&",
+            params: {
+                "url": "url"
+            }
+        }
+    };
+    action = socialActions[$(this).data('social')];
+    p = action['params'];
+    $.each(p, function (k, v) {
+        p[k] = pagedata[v]
+    });
+    window.open(action['url'] + $.param(p), "", "width=500,height=400");
+});</script>
 </body>
 
 </html>
