@@ -34,7 +34,11 @@ const declareViewEvents = () =>{
         e.target.submit()
       }
    })
-
+  
+      if(flagSend){
+        e.target.submit()
+      }
+   })
    
 }
 // Get the button:
