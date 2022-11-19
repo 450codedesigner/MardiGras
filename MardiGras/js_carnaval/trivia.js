@@ -26,7 +26,7 @@ window.onload = function () {
   
           "-9- <br>Which of the following <br> was New Orleans' <br> first mystic society?" : ['I. Order of Inca', 'II. Crewe of Columbus', 'III. Comic Cowboys', "IV. Crewe of Comos", 3],
   
-          "-10- <br>Which of the following  <br>individuals gained fame<br> for reviving Mardi Gras <br>after the Civil War?" : ['I. Michael Kraft', 'II. Ethel Hodgson', 'III. Daniel E. IV. Huger', "Joseph Cain", 3]
+          "-10- <br>Which of the following  <br>individuals gained fame<br> for reviving Mardi Gras <br>after the Civil War?" : ['I. Michael Kraft', 'II. Ethel Hodgson', 'III. Daniel E. IV. Huger', "V. Joseph Cain", 3]
         };
         
     function loadQuestion(curr) {
