@@ -18,15 +18,15 @@ window.onload = function () {
   
           "-5- <br>What does<br> the French expression <br> 'Mardi Gras'<br> literally translate to in English?" : ['I. Fat Tuesday', 'II. Fat Wednesday', 'III. Thin Wednesday', 'IV. Thin Tuesday', 0],
   
-          "-6- <br>What is the name <br> of the first mystic society <br> created in 1830?" : ['Crewe of Comos', 'Order of Myths', 'The Lost Cause Minstrels', 'Cowbellion de Rakin Society', 3],
+          "-6- <br>What is the name <br> of the first mystic society <br> created in 1830?" : ['I. Crewe of Comos', 'II. Order of Myths', 'III. The Lost Cause Minstrels', 'IV. Cowbellion de Rakin Society', 3],
   
-          "-7- <br>When did this original <br>mystic society hold its parade?" : ['Mardi Gras Day', 'Easter Sunday', 'Christmas Eve', "New Year's Eve", 3],
+          "-7- <br>When did this original <br>mystic society hold its parade?" : ['I. Mardi Gras Day', 'II. Easter Sunday', 'III. Christmas Eve', "III. New Year's Eve", 3],
   
-          "-8- <br>How did the Spanish<br> add their touch to<br> the French Mardi Gras?" : ['by holding lighted torch parades', 'by throwing woven Spanish dolls off of the floats', 'by changing the name to "Martes Gordo" ', "by marching on a different day", 0],
+          "-8- <br>How did the Spanish<br> add their touch to<br> the French Mardi Gras?" : ['I. by holding lighted torch parades', 'II. by throwing woven Spanish dolls off of the floats', 'III. by changing the name to "Martes Gordo" ', "IV. by marching on a different day", 0],
   
-          "-9- <br>Which of the following <br> was New Orleans' <br> first mystic society?" : ['Order of Inca', 'Crewe of Columbus', 'Comic Cowboys', "Crewe of Comos", 3],
+          "-9- <br>Which of the following <br> was New Orleans' <br> first mystic society?" : ['I. Order of Inca', 'II. Crewe of Columbus', 'III. Comic Cowboys', "IV. Crewe of Comos", 3],
   
-          "-10- <br>Which of the following  <br>individuals gained fame<br> for reviving Mardi Gras <br>after the Civil War?" : ['Michael Kraft', 'Ethel Hodgson', 'Daniel E. Huger', "Joseph Cain", 3]
+          "-10- <br>Which of the following  <br>individuals gained fame<br> for reviving Mardi Gras <br>after the Civil War?" : ['I. Michael Kraft', 'II. Ethel Hodgson', 'III. Daniel E. IV. Huger', "Joseph Cain", 3]
         };
         
     function loadQuestion(curr) {
