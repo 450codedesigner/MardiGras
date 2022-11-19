@@ -7,13 +7,12 @@
 .section p {
     font-family: 'Roboto', sans-serif;
     font-size: 3.1em;
-    color: blueviolet;
-
+    color:  #9165cb;
 }
 
 .container .accordion {
     margin: 0 auto;
-    color: blueviolet;
+    color:  #9165cb;
     background: black;
  
 
@@ -36,7 +35,7 @@
 }
 
 .accordion .card .btn-link {
-    text-decoration:blueviolet;
+    text-decoration:  #9165cb;
 }
 
 .accordion .card .btn:focus {
@@ -45,13 +44,16 @@
 
 .accordion .card .btn:hover {
     text-decoration: none;
-    color: blueviolet;
+    color:  #9165cb;
+    box-shadow: 0 -10px 20px #9165cb;
 }
 
 .accordion .card {
     margin-bottom: 1em;
-
+    box-shadow: 0 -10px 80px gray;
 }
+
+
 
 p {
     color: #fff;
@@ -61,6 +63,7 @@ p {
     background: linear-gradient(to bottom, #cfc19f 24%, #534f2c 26%, #cfc19f 28%, #cfc19f 29%, #ffecd4 45%, #3a2c1f 65%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 }
 
 footer {
@@ -129,6 +132,6 @@ footer .green-box p.rights {
         margin-bottom: 100px;
     }
 
-
+}
 
 
