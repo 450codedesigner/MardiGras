@@ -8,25 +8,25 @@ window.onload = function () {
        // An object that holds all the questions + possible answers.
        // In the array --> last digit gives the right answer position
         allQuestions = {
-         " &#10003; True <br> or <br> &#10005; False <br><br> 1.The first organised Mardi Gras celebration in America took place in New Orleans." : ['True', 'False', 1], 
+         " -1-<br>The first Mardi Gras in America <br> was in New Orleans." : ['I. True', 'II. False', 1], 
           
-          "2. Which of the following is not one of New Orleans' Mardi Gras colors?" : ['Green', 'Yellow' , 'Blue', 'Purple', 2],
+          "-2-<br> Which of the following <br> is not one of New Orleans' <br> Mardi Gras colors?" : ['I. Green', 'II. Yellow' , 'III. Blue', 'IV. Purple', 2],
           
-          "3.Which of the New Orleans Mardi Gras colors is not a Mobilian Mardi Gras color?" : ['Blue', 'Purple', 'Green', 'Yellow', 2],
+          "-3-<br>Which of the New Orleans <br> Mardi Gras colors <br>is not a Mobilian<br> Mardi Gras color?" : ['I. Blue', 'II. Purple', 'III. Green', 'IV. Yellow', 2],
   
-          "4. What medieval tradition can Mardi Gras be traced back to?" : ['ordinary citizens dressing in costume to celebrate Lent', 'parading held in celebration of Lent', 'feasting before the arrival of Lent', 'the throwing of trinkets by children to celebrate Lent', 2],
+          "-4- <br>What medieval tradition <br> can Mardi Gras be traced back to?" : ['I. ordinary citizens dressing in costume to celebrate Lent', 'II. parading held in celebration of Lent', 'III. feasting before the arrival of Lent', 'IV. the throwing of trinkets by children to celebrate Lent', 2],
   
-          "5. What does the French expression 'Mardi Gras' literally translate to in English?" : ['Fat Tuesday', 'Fat Wednesday', 'Thin Wednesday', 'Thin Tuesday', 0],
+          "-5- <br>What does<br> the French expression <br> 'Mardi Gras'<br> literally translate to in English?" : ['I. Fat Tuesday', 'II. Fat Wednesday', 'III. Thin Wednesday', 'IV. Thin Tuesday', 0],
   
-          "6. What is the name of the first mystic society, created in 1830?" : ['Crewe of Comos', 'Order of Myths', 'The Lost Cause Minstrels', 'Cowbellion de Rakin Society', 3],
+          "-6- <br>What is the name <br> of the first mystic society <br> created in 1830?" : ['Crewe of Comos', 'Order of Myths', 'The Lost Cause Minstrels', 'Cowbellion de Rakin Society', 3],
   
-          "7. When did this original mystic society hold its parade?" : ['Mardi Gras Day', 'Easter Sunday', 'Christmas Eve', "New Year's Eve", 3],
+          "-7- <br>When did this original <br>mystic society hold its parade?" : ['Mardi Gras Day', 'Easter Sunday', 'Christmas Eve', "New Year's Eve", 3],
   
-          "8. How did the Spanish add their touch to the French Mardi Gras?" : ['by holding lighted torch parades', 'by throwing woven Spanish dolls off of the floats', 'by changing the name to "Martes Gordo" ', "by marching on a different day", 0],
+          "-8- <br>How did the Spanish<br> add their touch to<br> the French Mardi Gras?" : ['by holding lighted torch parades', 'by throwing woven Spanish dolls off of the floats', 'by changing the name to "Martes Gordo" ', "by marching on a different day", 0],
   
-          "9. Which of the following was New Orleans' first mystic society?" : ['Order of Inca', 'Crewe of Columbus', 'Comic Cowboys', "Crewe of Comos", 3],
+          "-9- <br>Which of the following <br> was New Orleans' <br> first mystic society?" : ['Order of Inca', 'Crewe of Columbus', 'Comic Cowboys', "Crewe of Comos", 3],
   
-          "10. Which of the following individuals gained fame for reviving Mardi Gras after the Civil War?" : ['Michael Kraft', 'Ethel Hodgson', 'Daniel E. Huger', "Joseph Cain", 3]
+          "-10- <br>Which of the following  <br>individuals gained fame<br> for reviving Mardi Gras <br>after the Civil War?" : ['Michael Kraft', 'Ethel Hodgson', 'Daniel E. Huger', "Joseph Cain", 3]
         };
         
     function loadQuestion(curr) {
