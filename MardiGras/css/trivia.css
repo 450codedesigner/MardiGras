@@ -30,37 +30,40 @@ p {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 22px;
-  background: linear-gradient( to bottom, #cfc19f 24%, #534f2c 26% , #cfc19f 28% , #cfc19f 29%  , #ffecd4 45% , #3a2c1f 65%  );
-  -webkit-background-clip:  text  ;
+  background: #9165cb;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
   padding-bottom: 60px;
   width: 100%;
-  border-radius: 20%;
+
   color: #cbaa65;
   text-align: center;
-  box-shadow: 0 10px 20px  #cbaa65;
+  box-shadow: 0 10px 20px #9165cb;
 }
 
 #quiz h2 {
+
   color: #1b9a52;
-  margin-top: 30px;
+  margin-top: 150px;
 }
+
 .questions {
-  font-size: 28px;
-  font-weight: 700;
-  font-style: italic#cbaa65;
-  border-bottom: 1px solid#cbaa65;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic #9165cb;
+  border-bottom: 1px solid #9165cb;
   padding: 20px;
 }
+
 .answers div {
   padding: 15px 0 0 0;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 .answers div:hover {
   cursor: pointer;
-  color: #cbaa65;
+  color: #9165cb;
 }
 
 .answers {
@@ -71,7 +74,7 @@ p {
   width: 60%;
   margin: 0 auto;
   padding-bottom: 15px;
-  border-top: 1px solid #cbaa65;
+  border-top: 1px solid#9165cb;
 }
 
 .answers div:first-child {
@@ -120,4 +123,3 @@ p {
     width: 80%;
   }
 }
-
