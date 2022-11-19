@@ -33,11 +33,14 @@ const declareViewEvents = () =>{
       if(flagSend){
         e.target.submit()
       }
-   })
+
+  
+         }
   
       if(flagSend){
         e.target.submit()
       }
+
    })
    
 }
