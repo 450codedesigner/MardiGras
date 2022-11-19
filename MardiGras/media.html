@@ -220,9 +220,9 @@
                     allowfullscreen></iframe>
             </div>
         </div>
-        
+
         <div class=" text-center ml-lg-4 mb-3">
-          
+
 
             <h4 class="link">
                 <a href="https://www.mardigrasneworleans.com/contest/" target="_blank"></a>
@@ -235,56 +235,48 @@
 
                 <form method="post" enctype="multipart/form-data">
                     <div>
-                       
+
 
 
                         <h3><label for="file">
                             </label>
                         </h3>
                         <input type="file" id="file" name="file"
-                            style="border-bottom: 3px solid  rgb(204, 158, 97); border-top: 3px solid  rgb(204, 158, 97); border-left: 3px solid  black; border-right: 3px solid  black; color: antiquewhite; "
+                            style="border-bottom: 3px solid  rgb(204, 158, 97); border-top: 3px solid  rgb(204, 158, 97); border-left: 3px solid  rgb(204, 158, 97); border-right: 3px solid  rgb(204, 158, 97);  color:dimgray ;"
                             multiple />
                     </div>
                     <div>
                         <br>
-                        
+
+
                         <div class="mb-md-5">
-                            <button
-                                class="btn bg-danger text-white mt-2">SUBMIT</button>
-                            </div>
-                      <!--  <button
-                            style="border-bottom: 3px solid  rgb(204, 158, 97); border-top: 3px solid  rgb(204, 158, 97);border-left: 3px solid  black; border-right: 3px solid  black; color: black">
-                            <strong>
-                                &#9734;
-                                &#9734;
-                                &#9734;
-                                Submit
-                                &#9734;
-                                &#9734;
-                                &#9734;
-                                <br>
-                    </div>
-                    </button>
--->
-               
-                    <h3 class="link">
-                        <a href="https://www.mardigrasneworleans.com/contest/" target="_blank">
-                            <br>
-                         
-                            <h3>Send us your artistic photo <br> <h1><strong>&#9734;</strong></h1> </h3>
-              
-                        </a>
-                    </h3>
-                    <br>
-                    <br>
-                    <div class=" text-center ml-lg-4 mb-3">
-                        <h1 class="link">
-                           <a href="faq.html">
-                            <h4>  &#8606; For questions from visitors please visit the FAQ page &#8608;</h4>
-                           </a>
-                           </h1>
+                            <button class="btn bg-danger text-white mt-2"
+                                style="border-bottom: 3px solid  rgb(204, 158, 97); border-top: 3px solid  rgb(204, 158, 97);border-left: 3px solid  rgb(204, 158, 97); border-right: 3px solid   rgb(204, 158, 97);  color: rgb(204, 158, 97); color: rgb(204, 158, 97); ">SUBMIT</button>
                         </div>
-                    
+
+
+
+
+                        <h3 class="link">
+                            <a href="https://www.mardigrasneworleans.com/contest/" target="_blank">
+                                <br>
+
+                                <h3>Send us your artistic photo <br>
+                                    <h1><strong>&#9734;</strong></h1>
+                                </h3>
+
+                            </a>
+                        </h3>
+                        <br>
+                        <br>
+                        <div class=" text-center ml-lg-4 mb-3">
+                            <h1 class="link">
+                                <a href="faq.html">
+                                    <h4> &#8606; For questions from visitors please visit the FAQ page &#8608;</h4>
+                                </a>
+                            </h1>
+                        </div>
+
                 </form>
             </div>
             </a>
@@ -401,6 +393,9 @@
                         flagSend = false;
                     }
 
+                    if (flagSend) {
+                        e.target.submit()
+                    }
                     if (flagSend) {
                         e.target.submit()
                     }
