@@ -1,21 +1,23 @@
-
+ 
 .gallery{
     display: flex;
     margin: 0 auto;
+ 
 
 }
 .flexbox{
+ 
     display: flex;
     flex-direction: column;
     min-height: 300px;
     width: 31%;
+ 
     
     
 }
 .gallery .flexbox .item{
-    width: 100%;
-    
-    padding: 0.5em;
+   width: 100%;
+   padding: 0.5em;
 }
 
 p{
@@ -31,14 +33,17 @@ p{
 
 .gallery .flexbox .item img
 {
+    
     width: 100%;
       display: block;
       border: 0.3px solid #cbaa65;
+    
 } 
 
 .article-separator .separator{
+    
     width:33.33%;
-    height: 6px;
+    height: 2px;
 }
 .article-separator .separator.green{
     background:#cbaa65;
@@ -51,8 +56,9 @@ p{
 }
 
 .video-gallery iframe{
+   
     border: radius 4px;
-    border: 8px solid #cbaa65;
+    border: 2px solid #cbaa65;
     
 }
 
