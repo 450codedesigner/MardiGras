@@ -20,7 +20,7 @@ window.onload = function () {
   
           "-6- <br>What is the name <br> of the first mystic society <br> created in 1830?" : ['I. Crewe of Comos', 'II. Order of Myths', 'III. The Lost Cause Minstrels', 'IV. Cowbellion de Rakin Society', 3],
   
-          "-7- <br>When did this original <br>mystic society hold its parade?" : ['I. Mardi Gras Day', 'II. Easter Sunday', 'III. Christmas Eve', "III. New Year's Eve", 3],
+          "-7- <br>When did this original <br>mystic society hold its parade?" : ['I. Mardi Gras Day', 'II. Easter Sunday', 'III. Christmas Eve', "IV. New Year's Eve", 3],
   
           "-8- <br>How did the Spanish<br> add their touch to<br> the French Mardi Gras?" : ['I. by holding lighted torch parades', 'II. by throwing woven Spanish dolls off of the floats', 'III. by changing the name to "Martes Gordo" ', "IV. by marching on a different day", 0],
   
